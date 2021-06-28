@@ -33,7 +33,7 @@ export default function HeaderTrivia(props) {
                     <strong>Player:</strong> {storage.getItem('infoUs.name')}
                 </Typography>
                 <Button color="primary" variant="outlined" className={classes.link} onClick={clearStorage}>
-                    Salir
+                    Exit
                 </Button>
             </Toolbar>
         </AppBar>
